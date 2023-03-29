@@ -2,7 +2,7 @@
 <html lang="{{ config('app.locale') }}">
     <head>
         <meta charset="UTF-8">
-        <title>New Hope Dasboard</title>
+        <title>GADIEL</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="shortcut icon" href="/images/favicon.ico" />
         {!! Html::style('css/app.css') !!}
