@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('long_description');
             $table->string('meta_keywords');
             $table->text('meta_description');
+            $table->string('photo');
             $table->string('SKU');
             $table->decimal('price')->nullable();
             $table->integer('length');
@@ -26,6 +27,7 @@ return new class extends Migration
             $table->integer('width');
             $table->integer('weight');
             $table->string('main_image');
+            $table->boolean('available_pos');
             $table->integer('min_quantity');
             $table->boolean('status');
             $table->string('alias')->unique();
